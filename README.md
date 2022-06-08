@@ -26,7 +26,7 @@ Uygulama MVC design pattern kullanıldı. Databese olarak core data ve firebase,
 * [Cosmos](https://github.com/evgenyneu/Cosmos)
 * [Figma](https://figma.com/)
 
-<p align="right">(<a href="#top">Yukarı git</a>)</p>
+
 
 
 
@@ -57,21 +57,23 @@ Projenin kopyasını oluşturmak ve kendi macbook cihazınızda çalıştırak i
    sudo gem install cocoapods
    ```
 4. API bilgilerinizi girin `TravelBook\GoogleService-Info.plist`
-5. Pods'ları yükleyin
+5. Pods'ları yükleyin, terminalde porjein klasörüne girip alttaki komutları çalıştırın
   ```sh
    pod init
+   pod install
    ```
   
 
-<p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Uygulama Kullanımı
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Projeyi tasarlarken ve kullanırken tamamen UI/UX tasarımları göz önüne alarak ilerlerdik. Bundan dolayı uygulamayı kullanmak oldukça kolaydır. Ekran fotoğraflarından ve videolardan nasıl kuıllanıldığı hakkında bilgi alabilirsiniz.
 
+
+![alt text](http://sinantanrikut.com/app1.gif)
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
