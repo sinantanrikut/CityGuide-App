@@ -7,23 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		492FB36FD96A2F3C039EFDD1 /* Pods_TravelBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF40AE0476C63D3E811AAE29 /* Pods_TravelBook.framework */; };
+		BA05CCAC285003CC00C0CF90 /* FavoritePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA05CCAB285003CC00C0CF90 /* FavoritePlace.swift */; };
+		BA09B809284A5B56008B02EC /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09B808284A5B56008B02EC /* Category.swift */; };
+		BA09B80E284A5BBE008B02EC /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09B80D284A5BBE008B02EC /* DataService.swift */; };
+		BA09B811284A66B8008B02EC /* places.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09B810284A66B8008B02EC /* places.swift */; };
+		BA09B813284A6F31008B02EC /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09B812284A6F31008B02EC /* CategoryCell.swift */; };
+		BA09B817284AA783008B02EC /* PlacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09B816284AA783008B02EC /* PlacesCell.swift */; };
+		BA09B819284AD601008B02EC /* PlaceDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09B818284AD601008B02EC /* PlaceDetailVC.swift */; };
+		BA09B81B284ADE45008B02EC /* placeclone.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09B81A284ADE45008B02EC /* placeclone.swift */; };
+		BA09B81D284ADE98008B02EC /* PlacesVCNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09B81C284ADE98008B02EC /* PlacesVCNew.swift */; };
+		BA09B81F284B99E6008B02EC /* CommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09B81E284B99E5008B02EC /* CommentVC.swift */; };
+		BA09B821284C14F4008B02EC /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09B820284C14F4008B02EC /* CommentCell.swift */; };
+		BA09B823284C1D9D008B02EC /* comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09B822284C1D9D008B02EC /* comment.swift */; };
+		BA09B869284EB8B0008B02EC /* rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09B868284EB8AF008B02EC /* rating.swift */; };
+		BA09B86B284EF57C008B02EC /* FavoritePlaceCV.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09B86A284EF57B008B02EC /* FavoritePlaceCV.swift */; };
+		BA09B86D284EF60A008B02EC /* FavoritePlaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA09B86C284EF60A008B02EC /* FavoritePlaceCell.swift */; };
+		BA1D2ECC284121C200155C7A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D2ECB284121C200155C7A /* Constants.swift */; };
+		BA1D2ECE284122A800155C7A /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D2ECD284122A800155C7A /* RegisterVC.swift */; };
+		BA1D2ED0284122BE00155C7A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D2ECF284122BE00155C7A /* LoginVC.swift */; };
+		BA1D2ED2284151EF00155C7A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA1D2ED1284151EF00155C7A /* GoogleService-Info.plist */; };
+		BA1D2ED42841622A00155C7A /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D2ED32841622A00155C7A /* HomeVC.swift */; };
+		BA1D2EF628418F1900155C7A /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1D2EF528418F1900155C7A /* SettingsVC.swift */; };
 		BA31407D284116DF0057240A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31407C284116DF0057240A /* AppDelegate.swift */; };
 		BA31407F284116DF0057240A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA31407E284116DF0057240A /* SceneDelegate.swift */; };
-		BA314081284116DF0057240A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA314080284116DF0057240A /* ViewController.swift */; };
+		BA314081284116DF0057240A /* LandingpageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA314080284116DF0057240A /* LandingpageVC.swift */; };
 		BA314084284116DF0057240A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA314082284116DF0057240A /* Main.storyboard */; };
 		BA314086284116E00057240A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA314085284116E00057240A /* Assets.xcassets */; };
 		BA314089284116E00057240A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA314087284116E00057240A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23E803E64838B18A959EFCB2 /* Pods-TravelBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelBook.release.xcconfig"; path = "Target Support Files/Pods-TravelBook/Pods-TravelBook.release.xcconfig"; sourceTree = "<group>"; };
+		72C64F5A7225E0A208E9BC47 /* Pods-TravelBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TravelBook.debug.xcconfig"; path = "Target Support Files/Pods-TravelBook/Pods-TravelBook.debug.xcconfig"; sourceTree = "<group>"; };
+		BA05CCAB285003CC00C0CF90 /* FavoritePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePlace.swift; sourceTree = "<group>"; };
+		BA09B808284A5B56008B02EC /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BA09B80D284A5BBE008B02EC /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		BA09B810284A66B8008B02EC /* places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = places.swift; sourceTree = "<group>"; };
+		BA09B812284A6F31008B02EC /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		BA09B816284AA783008B02EC /* PlacesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesCell.swift; sourceTree = "<group>"; };
+		BA09B818284AD601008B02EC /* PlaceDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceDetailVC.swift; sourceTree = "<group>"; };
+		BA09B81A284ADE45008B02EC /* placeclone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = placeclone.swift; sourceTree = "<group>"; };
+		BA09B81C284ADE98008B02EC /* PlacesVCNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVCNew.swift; sourceTree = "<group>"; };
+		BA09B81E284B99E5008B02EC /* CommentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentVC.swift; sourceTree = "<group>"; };
+		BA09B820284C14F4008B02EC /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		BA09B822284C1D9D008B02EC /* comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comment.swift; sourceTree = "<group>"; };
+		BA09B868284EB8AF008B02EC /* rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rating.swift; sourceTree = "<group>"; };
+		BA09B86A284EF57B008B02EC /* FavoritePlaceCV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePlaceCV.swift; sourceTree = "<group>"; };
+		BA09B86C284EF60A008B02EC /* FavoritePlaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritePlaceCell.swift; sourceTree = "<group>"; };
+		BA1D2ECB284121C200155C7A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		BA1D2ECD284122A800155C7A /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		BA1D2ECF284122BE00155C7A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		BA1D2ED1284151EF00155C7A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA1D2ED32841622A00155C7A /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		BA1D2EF528418F1900155C7A /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		BA314079284116DF0057240A /* TravelBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA31407C284116DF0057240A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BA31407E284116DF0057240A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BA314080284116DF0057240A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA314080284116DF0057240A /* LandingpageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingpageVC.swift; sourceTree = "<group>"; };
 		BA314083284116DF0057240A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA314085284116E00057240A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA314088284116E00057240A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA31408A284116E00057240A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF40AE0476C63D3E811AAE29 /* Pods_TravelBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TravelBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +77,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492FB36FD96A2F3C039EFDD1 /* Pods_TravelBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D153A5AD9C224166E93EC19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF40AE0476C63D3E811AAE29 /* Pods_TravelBook.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA09B80A284A5B81008B02EC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				BA09B80D284A5BBE008B02EC /* DataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		BA1D2EC828411DF000155C7A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				BA1D2ECB284121C200155C7A /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		BA314070284116DF0057240A = {
 			isa = PBXGroup;
 			children = (
 				BA31407B284116DF0057240A /* TravelBook */,
 				BA31407A284116DF0057240A /* Products */,
+				BFAE9878847DE37F86B52D9A /* Pods */,
+				4D153A5AD9C224166E93EC19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +129,69 @@
 		BA31407B284116DF0057240A /* TravelBook */ = {
 			isa = PBXGroup;
 			children = (
+				BA09B80A284A5B81008B02EC /* Services */,
+				BA1D2EC828411DF000155C7A /* Constants */,
+				BA314092284117A90057240A /* Controller */,
+				BA314091284117A40057240A /* Model */,
+				BA3140902841179D0057240A /* View */,
 				BA31407C284116DF0057240A /* AppDelegate.swift */,
 				BA31407E284116DF0057240A /* SceneDelegate.swift */,
-				BA314080284116DF0057240A /* ViewController.swift */,
 				BA314082284116DF0057240A /* Main.storyboard */,
 				BA314085284116E00057240A /* Assets.xcassets */,
 				BA314087284116E00057240A /* LaunchScreen.storyboard */,
 				BA31408A284116E00057240A /* Info.plist */,
+				BA1D2ED1284151EF00155C7A /* GoogleService-Info.plist */,
 			);
 			path = TravelBook;
+			sourceTree = "<group>";
+		};
+		BA3140902841179D0057240A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BA09B812284A6F31008B02EC /* CategoryCell.swift */,
+				BA09B816284AA783008B02EC /* PlacesCell.swift */,
+				BA09B820284C14F4008B02EC /* CommentCell.swift */,
+				BA09B86C284EF60A008B02EC /* FavoritePlaceCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BA314091284117A40057240A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BA09B808284A5B56008B02EC /* Category.swift */,
+				BA09B810284A66B8008B02EC /* places.swift */,
+				BA09B822284C1D9D008B02EC /* comment.swift */,
+				BA09B868284EB8AF008B02EC /* rating.swift */,
+				BA05CCAB285003CC00C0CF90 /* FavoritePlace.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BA314092284117A90057240A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BA314080284116DF0057240A /* LandingpageVC.swift */,
+				BA1D2ECD284122A800155C7A /* RegisterVC.swift */,
+				BA1D2ECF284122BE00155C7A /* LoginVC.swift */,
+				BA1D2ED32841622A00155C7A /* HomeVC.swift */,
+				BA1D2EF528418F1900155C7A /* SettingsVC.swift */,
+				BA09B818284AD601008B02EC /* PlaceDetailVC.swift */,
+				BA09B81A284ADE45008B02EC /* placeclone.swift */,
+				BA09B81C284ADE98008B02EC /* PlacesVCNew.swift */,
+				BA09B81E284B99E5008B02EC /* CommentVC.swift */,
+				BA09B86A284EF57B008B02EC /* FavoritePlaceCV.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BFAE9878847DE37F86B52D9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72C64F5A7225E0A208E9BC47 /* Pods-TravelBook.debug.xcconfig */,
+				23E803E64838B18A959EFCB2 /* Pods-TravelBook.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA31408D284116E00057240A /* Build configuration list for PBXNativeTarget "TravelBook" */;
 			buildPhases = (
+				2685974F348DB255C649EC98 /* [CP] Check Pods Manifest.lock */,
 				BA314075284116DF0057240A /* Sources */,
 				BA314076284116DF0057240A /* Frameworks */,
 				BA314077284116DF0057240A /* Resources */,
+				9FE70D74BA2A49CB9FA009D9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA314089284116E00057240A /* LaunchScreen.storyboard in Resources */,
+				BA1D2ED2284151EF00155C7A /* GoogleService-Info.plist in Resources */,
 				BA314086284116E00057240A /* Assets.xcassets in Resources */,
 				BA314084284116DF0057240A /* Main.storyboard in Resources */,
 			);
@@ -133,14 +263,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2685974F348DB255C649EC98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TravelBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE70D74BA2A49CB9FA009D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelBook/Pods-TravelBook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TravelBook/Pods-TravelBook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TravelBook/Pods-TravelBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BA314075284116DF0057240A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA314081284116DF0057240A /* ViewController.swift in Sources */,
+				BA09B81D284ADE98008B02EC /* PlacesVCNew.swift in Sources */,
+				BA314081284116DF0057240A /* LandingpageVC.swift in Sources */,
+				BA09B81B284ADE45008B02EC /* placeclone.swift in Sources */,
+				BA1D2ED42841622A00155C7A /* HomeVC.swift in Sources */,
 				BA31407D284116DF0057240A /* AppDelegate.swift in Sources */,
+				BA09B86B284EF57C008B02EC /* FavoritePlaceCV.swift in Sources */,
+				BA09B821284C14F4008B02EC /* CommentCell.swift in Sources */,
+				BA09B817284AA783008B02EC /* PlacesCell.swift in Sources */,
+				BA1D2ED0284122BE00155C7A /* LoginVC.swift in Sources */,
+				BA09B869284EB8B0008B02EC /* rating.swift in Sources */,
 				BA31407F284116DF0057240A /* SceneDelegate.swift in Sources */,
+				BA09B823284C1D9D008B02EC /* comment.swift in Sources */,
+				BA09B809284A5B56008B02EC /* Category.swift in Sources */,
+				BA05CCAC285003CC00C0CF90 /* FavoritePlace.swift in Sources */,
+				BA1D2EF628418F1900155C7A /* SettingsVC.swift in Sources */,
+				BA09B811284A66B8008B02EC /* places.swift in Sources */,
+				BA1D2ECC284121C200155C7A /* Constants.swift in Sources */,
+				BA09B81F284B99E6008B02EC /* CommentVC.swift in Sources */,
+				BA09B86D284EF60A008B02EC /* FavoritePlaceCell.swift in Sources */,
+				BA09B819284AD601008B02EC /* PlaceDetailVC.swift in Sources */,
+				BA1D2ECE284122A800155C7A /* RegisterVC.swift in Sources */,
+				BA09B80E284A5BBE008B02EC /* DataService.swift in Sources */,
+				BA09B813284A6F31008B02EC /* CategoryCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +476,7 @@
 		};
 		BA31408E284116E00057240A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C64F5A7225E0A208E9BC47 /* Pods-TravelBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +505,7 @@
 		};
 		BA31408F284116E00057240A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23E803E64838B18A959EFCB2 /* Pods-TravelBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
