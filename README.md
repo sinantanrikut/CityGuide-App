@@ -4,8 +4,10 @@
 <div id="top"></div>
 <!-- ABOUT THE PROJECT -->
 ## Proje Hakkında
-![alt text](http://sinantanrikut.com/banner.jpg)
+
+![Test Image 1](http://sinantanrikut.com/banner.jpg) 
 [![Product Name Screen Shot][product-screenshot]](http://sinantanrikut.com/banner.jpg)
+
 
 City Guide App, şehrin içerisinde gezebileceğiniz yerleri tek bir çatı altında buluşturan uygulamadır. Uygulamanın bu versiyonunda sadece tek bir şehir üzerinden bu işleyiş işlemektedir. Gezeceğiniz şehirde yer alan yerleri 7 kategoride listeler bunlar; `Parklar, Kütüphaneler, Tarihi Yerler, Oteller, Marketler, İbadet Yerleri, Otoparklar` şeklindedir. Her kategori içerisinde onlarca mekan listeli olup her mekan hakkında bilgi edinebileceğiniz ekranlarda bulunmaktadır.
 
