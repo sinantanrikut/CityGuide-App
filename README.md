@@ -72,42 +72,24 @@ Projenin kopyasını oluşturmak ve kendi macbook cihazınızda çalıştırak i
 
 Projeyi tasarlarken ve kullanırken tamamen UI/UX tasarımları göz önüne alarak ilerlerdik. Bundan dolayı uygulamayı kullanmak oldukça kolaydır. Ekran fotoğraflarından ve videolardan nasıl kuıllanıldığı hakkında bilgi alabilirsiniz.
 
-
+ ```sh
+  Gif:
+   ```
 ![alt text](http://sinantanrikut.com/app1.gif)
-_For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
 
 <!-- CONTRIBUTING -->
-## Contributing
+## Katkıda Bulunanlar
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Kırklareli Yazılım Mühendisliği Mobil programala Final ödevi olarak yapılan bu projeyi 3 kişi geliştirdik. Projenin yapımından gelişimine kadar emeği geçen herkese teşekkür ederiz.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+1. Sinan Tanrıkut 1190505066
+2. Ahmet Turan Karakuş
+3. Haydar Alçin
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
