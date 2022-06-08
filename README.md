@@ -17,9 +17,9 @@ Uygulamayı kurmak XCODE'da kurmak için `README.md` dosyasını takip edin.
 
 
 
-### Uygulamada Kullanılan Teknolojilrt
+### Uygulamada Kullanılan Teknolojiler
 
-Uygulama MVMM mimarisiyle kodlandı. Databes olarak coredata ve firebase programlama dili olarak swift 5 kullanıldı.
+Uygulama MVC design pattern kullanıldı. Databese olarak core data ve firebase, programlama dili olarak swift 5 kullanıldı.
 
 * [Swift 5](https://developer.apple.com/swift/)
 * [Firebase](https://firebase.google.com/)
@@ -31,36 +31,37 @@ Uygulama MVMM mimarisiyle kodlandı. Databes olarak coredata ve firebase program
 
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Uygulamanın Kurulumu
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Bu, projenizi yerel olarak kurmak için gerekli olan talimatların listelendiği bir kısımdır. Projenin kopyasını oluşturmak ve localde projeyi çalıştırmak için aşağıdaki adımları uygulayın.
 
-### Prerequisites
+### Başlamadan Önce
 
-This is an example of how to list things you need to use the software and how to install them.
+Projeye başlamadan önce paket yükleyicilerin local'de kurulu olması gerekmektedir.
 * npm
   ```sh
-  npm install npm@latest -g
+  sudo gem install cocoapods
+
   ```
 
-### Installation
+### Kurulum
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Projenin kopyasını oluşturmak ve kendi macbook cihazınızda çalıştırak için yapmanız gerekenler:
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Repo dosyasını indirin
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/sinantanrikut/CityGuide-App/
    ```
-3. Install NPM packages
+3. Install Cocopods packages
    ```sh
-   npm install
+   sudo gem install cocoapods
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+4. API bilgilerinizi girin `TravelBook\GoogleService-Info.plist`
+5. Pods'ları yükleyin
+  ```sh
+   pod init
    ```
+  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
