@@ -1,39 +1,32 @@
 
 
+   
+<div id="top"></div>
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Proje Hakkında
 
 [![Product Name Screen Shot][product-screenshot]](https://example1.com)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+City Guide App, şehrin içerisinde gezebileceğiniz yerleri tek bir çatı altında buluşturan uygulamadır. Uygulamanın bu versiyonunda sadece tek bir şehir üzerinden bu işleyiş işlemektedir. Gezeceğiniz şehirde yer alan yerleri 7 kategoride listeler bunlar; `Parklar, Kütüphaneler, Tarihi Yerler, Oteller, Marketler, İbadet Yerleri, Otoparklar` şeklindedir. Her kategori içerisinde onlarca mekan listeli olup her mekan hakkında bilgi edinebileceğiniz ekranlarda bulunmaktadır.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
+Daha önde ziyaret edilmiş yerlere yapılan yorumlar sayesinde oraya gitmeden bir fikir edinmiş olabileceksiniz. Siz ziyaret ettikten sonra olumlu yada olumsuz bir şekilde yorum yapmanız halinde yeni ziyaretçiler ziyaret edecekleri yerler hakkında bilgi edinmiş olacaklar.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+Uygulama içerisinde kullanıcılar beğendikleri yerleri puanlayarak favori listesine kolay bir şekilde ekleyebilir. Bu şekilde beğendikleri yerleri daha sonrasında kolay bir şeklilde hatırlayabilir ve buraları tekrar ziyaret edebilir.
 
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
+Uygulamayı kurmak XCODE'da kurmak için `README.md` dosyasını takip edin.
 
 
 
-### Built With
+### Uygulamada Kullanılan Teknolojilrt
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Uygulama MVMM mimarisiyle kodlandı. Databes olarak coredata ve firebase programlama dili olarak swift 5 kullanıldı.
 
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Vue.js](https://vuejs.org/)
-* [Angular](https://angular.io/)
-* [Svelte](https://svelte.dev/)
-* [Laravel](https://laravel.com)
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
+* [Swift 5](https://developer.apple.com/swift/)
+* [Firebase](https://firebase.google.com/)
+* [Cosmos](https://github.com/evgenyneu/Cosmos)
+* [Figma](https://figma.com/)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p align="right">(<a href="#top">Yukarı git</a>)</p>
 
 
 
