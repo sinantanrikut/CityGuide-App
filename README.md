@@ -1,11 +1,8 @@
 
 
-   
-<div id="top"></div>
-<!-- ABOUT THE PROJECT -->
-## Proje Hakkında
-
 ![Test Image 1](http://sinantanrikut.com/banner.jpg) 
+
+## Proje Hakkında
 [![Product Name Screen Shot][product-screenshot]](http://sinantanrikut.com/banner.jpg)
 
 
