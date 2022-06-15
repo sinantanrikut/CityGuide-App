@@ -81,18 +81,6 @@ Projeyi tasarlarken ve kullanırken tamamen UI/UX tasarımları göz önüne ala
 
 
 
-<!-- CONTRIBUTING -->
-## Katkıda Bulunanlar
-
-Kırklareli Yazılım Mühendisliği Mobil programlama Final ödevi olarak yapılan bu projeyi 3 kişi geliştirdik. Projenin yapımından gelişimine kadar emeği geçen herkese teşekkür ederiz.
-
-1. Sinan Tanrıkut (`1190505066`)
-2. Ahmet Turan Karakuş (`1190505037`)
-3. Haydar Alçin (`1190505032`)
-
-
-
-
 
 <!-- CONTACT -->
 ## İletişim
